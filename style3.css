@@ -1,0 +1,60 @@
+.main{
+    display:flex;
+    background-color: white;
+    margin: 100px auto;
+    padding: 15px;
+    width: 85%;
+    height: 70px;
+    justify-content: center;
+    border-radius: 15px;
+    border:1px solid rgb(35, 70, 116);
+}
+span{
+    display: flex;
+    width: 45px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 40%;    
+    box-sizing: border-box;
+    cursor: pointer;
+}
+i{
+    font-size: 35px;
+    align-self:center;
+    color: rgb(26, 88, 223);
+}
+
+.main div{
+    align-self:center;
+}
+.main span{
+    align-self:center;
+}
+
+.container{
+    display: flex;
+    flex-grow: 8;
+    margin: 0px 7px;
+    background-color:  rgb(26, 88, 223);
+}
+.face {
+    background-color: white;
+    border-radius: 0 50% 50% 0 ;
+    color: rgb(26, 88, 223);
+} 
+
+
+.text {
+    border:none;
+    flex-grow: 12;
+    padding: 8px 10px;
+    border-radius: 30px 0 0 30px;
+
+}
+/*.lik{
+    color: rgb(26, 88, 223);
+    border-radius: 50%;
+}*/
+.lik i {
+    color: white;
+}
